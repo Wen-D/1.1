@@ -1,29 +1,40 @@
+<!DOCTYPE html>
 <html>
+<head></head>
+<body>
 
-  <head></head>
-  
-  <body>
-    /*
-    Title: Discussion 1.1 - Values and Variable 
-    Author: Arlix Sorto
-    Date: 25 May 2020
-    Description: JavaScript program using value and variables with errors.
-    */
 
-    //FIXME
-    
-    Var bookTitle = "JavaScript: The Definitive Guide";
-    var bookAuthor = "David Flanagan";
-    var edition = 6th;
-    var publisher = 'O'Reilly Media, Inc';
-    var ISBN = 97805968085524;
+<script>
 
-    console.log("Book title: " + bookTitle);
-    console.log("Author: " + bookAuthor);
-    console.log("Edition: " + edition);
-    console.log("Publisher: " + publisher);
-    console.log("ISBN: " + ISBN);
-  
-  </body>
+  /*
+  Title: Discussion 1.1 - Values and Variable 
+  Author: Arlix Sorto
+  Date: 25 May 2020
+  Description: JavaScript program using value and variables with errors.
+  */
 
-</html>
+  //FIXME
+  var newLine =' <br> <br>'
+  // using document.write to display var values straight on the page
+  document.write(newLine); // adding variable that contains two breaks to improve readability
+
+  var bookTitle = "JavaScript: The Definitive Guide"; // Var declaration - reserved var word has capitalization
+  document.write("Book title: " + bookTitle + newLine);
+
+  var bookAuthor = "David Flanagan";
+  document.write ("Author: " + bookAuthor + newLine);
+
+  var edition = "6th"; // String needs to be in between double quotes
+  document.write("Edition: " + edition + newLine);
+
+  var publisher = 'O\'Reilly Media, Inc'; //single quote needed to be escaped
+  document.write("Publisher: " + newLine);
+
+
+  var ISBN = 97805968085524;
+  document.write("ISBN: " + ISBN);
+
+</script>
+
+</body>
+</html> 
