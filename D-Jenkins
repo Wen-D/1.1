@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+
+<script>
+
 /* ============================================ 
 
 ; Title: Discussion Board Mistake
@@ -12,22 +20,27 @@
 
 =========================================== */
 
-//List of Variable Declaration
+//List of Variable Declaration  
+
 
 var gameTitle;
-
-var date;
 
 
 //This variable has two mistakes
 
-gameTitle= "Persona 5 Royal;
+var newLine =' <br> <br>'; // adding two breaks
+document.write(newLine); 
 
-date "June 26th 2017";
+gameTitle = "Persona 5 Royal"; // missing closing double quotes
+document.write(gameTitle + newLine); // consolelog was missing a dot between console and log 'console.log'
 
 
-//The output has a mistake
+var date;
+date = "June 26th 2017"; // missing '=' to assign string to date var
+document.write(date);
+  
 
-consolelog(gameTitle);
+</script>
 
-console.log(date);
+</body>
+</html> 
