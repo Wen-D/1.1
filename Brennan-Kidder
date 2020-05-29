@@ -1,0 +1,39 @@
+/*============================================  
+
+; Title: Assignment 1.1  
+
+; Author: Wendy Leon  
+
+; Date: 27 May 2020 
+
+; Modified By: Brennan Kidder  
+
+; Description: Values and variables exercise 
+
+; with mistakes  
+
+;=========================================== */ 
+
+<html>  
+
+<head></head>  
+
+<body>  
+
+<p id="total"> </p>  
+
+<script>     
+
+var price1 = five; // var price1 with value of 5. There is one error in this statement.  
+
+var tax= ".07"; // var tax with value .07. There is one error in this statement.    
+
+var total = price1 * tax + price1; // mathmatical function calculating total price including tax     
+
+document.getElementById("Total").innerHTML= "Total:" + total; //There is one error with the output      
+
+</script>  
+
+</body>  
+
+<html>
